@@ -1,0 +1,121 @@
+<!-- 
+    COMP 333: Software Engineering
+    Nolan Chow (nchow@wesleyan.edu)
+    Professor Zimmeck (szimmeck@wesleyan.edu)
+-->
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Comp333 HW1 Landing Page</title>
+    <link rel="stylesheet" href="style_sample.css">
+</head>
+
+<body style="background-color:paleturquoise">
+    <header>
+        <h1 style="background-image: url(https://cdn.pixabay.com/photo/2017/07/01/09/03/piano-notes-2460937__480.png);
+        background-repeat:repeat;
+        background-size: auto 100%;
+        background-position: right" id="front"><b>S0NGLY</b>: A Song Rating Platform</h1>
+
+    </header>
+    
+    <h2 style="text-align:center;color:lightcoral"><b>What is S0NGLY?</b></h2>
+    <p style="text-align:center;">S0NGLY is an upcoming cross-platform music rating platform, designed
+        to allow users to upload, rate, and review their favorite
+        songs. 
+    </p>
+    <h2 style="text-align:center;color:lightcoral"><b>How to use S0NGLY?</b></h2>
+    <p style="text-align:center;">
+        Upload newly released or unlisted songs <br>
+        Rate on-site songs on a 1 to 10 star scale <br>
+        Write detailed reviews of songs and albums<br>
+        Discuss reviews and ratings with fellow members <br>
+        Follow your friends and update your profile<br>
+        Create playlists of your favorite songs and genres<br>
+    </p>
+    <h2 style="text-align:center;color:lightcoral" ><b>Supported Devices for S0NGLY</b></h2>
+    <table class="centeredtable">
+        <!-- 
+            <tr> tag for a table row 
+        -->
+        <tr>
+            <!-- 
+                <th> tag for table header 
+            -->
+            <th>Device  </th>
+            <th>Accessibility </th>
+            <th>Cross-Platform?</th>
+        </tr>
+        <tr>
+            <!-- 
+                <td> tag for a table cell 
+            -->
+            <td>Mac</td>
+            <td>Website</td>
+            <td>Yes!</td>
+        </tr>
+        <tr>
+            <td>PC</td>
+            <td>Website</td>
+            <td>Yes!</td>
+        </tr>
+        <tr>
+            <td>iOS</td>
+            <td>Mobile App</td>
+            <td>Yes!</td>
+        </tr>
+        <tr>
+            <td>Android</td>
+            <td>Mobile App</td>
+            <td>Yes!</td>
+        </tr>
+    </table>
+    <h2 style="color:lightcoral">View Our Testimonials!</h2>
+
+    <iframe src="Testimonials.html"></iframe>
+    <br>
+    <h2 style="color:lightcoral">View Our Membership Plans <a href="Memberships.html"><b>Here</b></a><a>!</a></h2>
+    <br><hr>
+    <h2 style="color:lightcoral">Interested? Sign Up Today!</h2>
+    <a>Enter your information in the form below, and you will be redirected to our payment partners</a>
+    <br>
+    <a>Credit/Debit Card, Paypal, BTC, and ETH are accepted.</a>
+    <br>
+    <br>
+    <form action="index.html">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username" value="">
+        <label for="password">Password:</label><br>
+        <input type="text" id="password" name="password" value="">
+        <label for="confirmpassword">Confirm Password:</label><br>
+        <input type="text" id="confirmpassword" name="confirmpassword" value="">
+        <label for="Membership">Choose a <a href="Memberships.html"><b>Membership Plan:</b></a></label>
+        <select id="Membership" name="Membership" size="1">
+            <option value="null">Select</option>
+            <option value="Free">Free</option>
+            <option value="Monthly">Monthly</option>
+            <option value="Premium">Premium</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+      </form>
+    <br>
+    <br>
+    
+    <hr>
+    <div style="color:white">
+        <img src="https://cdn.pixabay.com/photo/2017/03/28/17/45/smartphones-2182838__340.png" alt="iOS and Android" width="425" height="425">
+        <img src="https://cdn.pixabay.com/photo/2016/11/03/11/59/presentation-1794128_1280.png" alt="Mac" width="485" height="425">
+        <img src="https://cdn.pixabay.com/photo/2016/08/17/04/43/template-1599667_1280.png" alt="PC" width="485" height="425">
+    </div>
+    
+
+<hr>    <a>This site was designed and published as part of the COMP 333 Software Engineering class at Wesleyan University. <br> The described platform is not publicly available but rather is created as a training exercise.
+        <br>The creator of this website is Nolan Chow, taught by Professor Zimmeck</a>
+</body>
+</html>
